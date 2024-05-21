@@ -1,0 +1,4 @@
+2024-05-21 17:06:12,246 - INFO - GET http://petstore.swagger.io/v2/pet/1 - Status Code: 200
+2024-05-21 17:06:12,246 - INFO - Pet details: {'id': 1, 'category': {'id': 1, 'name': 'cat'}, 'name': 'dog', 'photoUrls': [], 'tags': [], 'status': 'sold'}
+2024-05-21 17:06:13,221 - INFO - POST http://petstore.swagger.io/v2/pet - Status Code: 405
+2024-05-21 17:06:13,232 - INFO - HTTP error occurred: 405 Client Error: Method Not Allowed for url: https://petstore.swagger.io:443/v2/pet, Response body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
